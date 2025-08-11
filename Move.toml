@@ -1,0 +1,16 @@
+[package]
+name = "DecentralizedOracleNetwork"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hrithvika_addr = "ecf5b4dd3b8a7270284f4db769091361e3fa89a027e5f0b5ce5e8ff65e44e9cb"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
